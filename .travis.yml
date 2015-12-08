@@ -1,7 +1,6 @@
 language: python
 
 python:
-  - 2.6
   - 2.7
 
 before_script:
@@ -11,3 +10,5 @@ install:
   - python setup.py install
 
 script: make check
+
+build_image: drydock/u14pytpls:prod
