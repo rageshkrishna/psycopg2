@@ -11,4 +11,4 @@ install:
 
 script: make check
 
-build_image: drydock/u14pytpls:prod
+#build_image: drydock/u14pytpls:prod
